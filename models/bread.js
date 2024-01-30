@@ -10,5 +10,4 @@ const breadSchema = new Schema({
 })
 
 const Bread = mongoose.model('Bread', breadSchema)
-
 module.exports = Bread
